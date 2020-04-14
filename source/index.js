@@ -4,6 +4,8 @@ import hljs from "highlight.js/lib/highlight";
 import haskellSupport from "highlight.js/lib/languages/haskell";
 import javascriptSupport from "highlight.js/lib/languages/javascript";
 
+import regeneratorRuntime from "regenerator-runtime";
+
 (async function () {
   hljs.registerLanguage("haskell", haskellSupport);
   hljs.registerLanguage("javascript", javascriptSupport);

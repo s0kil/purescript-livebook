@@ -1,10 +1,10 @@
 devDependencies:
   '@babel/core': 7.9.0
-  '@babel/preset-env': 7.9.5_@babel+core@7.9.0
   github-markdown-css: 4.0.0
   highlight.js: 9.18.1
   modern-normalize: 0.6.0
   parcel: 2.0.0-nightly.212
+  regenerator-runtime: 0.13.5
   remarkable: 2.0.0
 lockfileVersion: 5.1
 packages:
@@ -6342,9 +6342,9 @@ packages:
       integrity: sha512-ZbotRWhF+lkjijC/VhmOT9wSgyBQ7+zr13+YLkhfsSiTriYsMzkTUFP18pFhWwBeMa5gUc1MzbhrO6/VB7c9Xg==
 specifiers:
   '@babel/core': ^7.9.0
-  '@babel/preset-env': ^7.9.5
   github-markdown-css: ^4.0.0
   highlight.js: ^9.18.1
   modern-normalize: ^0.6.0
   parcel: ^2.0.0-nightly.212
+  regenerator-runtime: ^0.13.5
   remarkable: ^2.0.0

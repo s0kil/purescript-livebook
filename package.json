@@ -7,11 +7,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
     "github-markdown-css": "^4.0.0",
     "highlight.js": "^9.18.1",
     "modern-normalize": "^0.6.0",
     "parcel": "^2.0.0-nightly.212",
+    "regenerator-runtime": "^0.13.5",
     "remarkable": "^2.0.0"
   }
 }
