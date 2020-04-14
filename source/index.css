@@ -1,0 +1,99 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Baskervville", serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+
+header {
+  height: 100px;
+  background-size: contain;
+  background-color: #1d222d;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(https://www.purescript.org/img/logo.svg);
+}
+
+#introduction {
+  margin-bottom: 4rem;
+}
+
+#table-of-contents {
+  margin-bottom: 4rem;
+  counter-reset: book-chapters;
+}
+#table-of-contents a {
+  display: block;
+  max-width: 300px;
+}
+#table-of-contents .indent-H1:before {
+  counter-increment: book-chapters;
+  content: counter(book-chapters) ". ";
+}
+#table-of-contents .indent-H1 {
+  font-weight: bold;
+  color: #343a40;
+}
+#table-of-contents .indent-H2 {
+  color: #495057;
+  margin-left: 2rem;
+}
+#table-of-contents .indent-H3 {
+  color: #868e96;
+  margin-left: 4rem;
+}
+
+#loading {
+  animation: blinkingText 1s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    color: #212529;
+  }
+  10% {
+    color: #343a40;
+  }
+  30% {
+    color: #495057;
+  }
+  40% {
+    color: #868e96;
+  }
+  50% {
+    color: #adb5bd;
+  }
+  60% {
+    color: #ced4da;
+  }
+  70% {
+    color: #dee2e6;
+  }
+  80% {
+    color: #e9ecef;
+  }
+  90% {
+    color: #f1f3f5;
+  }
+  100% {
+    color: #f8f9fa;
+  }
+}
