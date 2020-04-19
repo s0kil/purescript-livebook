@@ -30,7 +30,7 @@ header {
   background-color: #1d222d;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(https://www.purescript.org/img/logo.svg);
+  background-image: url(https://rawcdn.githack.com/purescript/purescript.github.io/master/img/logo.svg);
 }
 
 #introduction {
