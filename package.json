@@ -8,7 +8,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "github-markdown-css": "^4.0.0",
-    "highlight.js": "^9.18.1",
+    "highlight.js": "^10.4.1",
     "modern-normalize": "^0.6.0",
     "parcel": "^2.0.0-nightly.225",
     "regenerator-runtime": "^0.13.5",
